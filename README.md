@@ -1,5 +1,5 @@
 # NICE-Pretraining-Model---MAGIC
-MAGIC model implementation
+MAGIC model implementation will be coming soon....
 
 MAGIC model is designed for the NICE-Setting II. It aims to generate emotional comments conditioned on an image, a comment topic, affect features, and the comment history. As large models usually generalize better to new domains when they are trained on large volumes of data, we use GPT-2 as the backbone for MAGIC. It is trained with the objective of predicting the next word, given an image, comment topic, comment history, affect feature, and all of the previous words within a defined context window. 
 We trained MAGIC with the transformer architecture, which has 12 layers and each layer has 12 heads. The model aims to compute the conditional probability L:
